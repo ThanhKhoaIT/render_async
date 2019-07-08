@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'render_async/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "render_async"
+  spec.name          = "crazy_render"
   spec.version       = RenderAsync::VERSION
-  spec.authors       = ["Kasper Grubbe", "nikolalsvk"]
-  spec.email         = ["nikolaseap@gmail.com"]
+  spec.authors       = ["ThanhKhoaIT", "Kasper Grubbe", "nikolalsvk"]
+  spec.email         = ["ThanhKhoaIT@gmail.com"]
 
   spec.summary       = "Render parts of the page asynchronously with AJAX"
   spec.description   = "Load parts of your page through simple JavaScript and Rails pipeline"
-  spec.homepage      = "https://github.com/renderedtext/render_async"
+  spec.homepage      = "https://github.com/ThanhKhoaIT/render_async"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
